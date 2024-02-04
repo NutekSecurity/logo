@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void logo() {
     printf("\033[1;31m");
     printf("::::    ::: :::    ::: ::::::::::: :::::::::: :::    :::\n");
     printf("\033[1;31m");
@@ -16,5 +16,4 @@ int main() {
     printf("\033[1;34m");
     printf("###    ####  ########      ###     ########## ###    ### security.com\n");
     printf("\033[0m");
-    return 0;
 }

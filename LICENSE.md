@@ -1,1 +1,1 @@
-All rights reserved (copyright) NutekSecurity 2024.
+All rights reserved (copyright) 2024 NutekSecurity and Szymon Błaszczyński
