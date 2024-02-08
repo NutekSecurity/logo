@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:logo-swift}",
+            "name": "Debug logo-swift",
+            "program": "${workspaceFolder:logo-swift}/.build/debug/logo-swift",
+            "preLaunchTask": "swift: Build Debug logo-swift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:logo-swift}",
+            "name": "Release logo-swift",
+            "program": "${workspaceFolder:logo-swift}/.build/release/logo-swift",
+            "preLaunchTask": "swift: Build Release logo-swift"
+        }
+    ]
+}

@@ -1,8 +1,16 @@
-#include <stdio.h>
-#include "logo-lib.h"
+//
+//  logo.c
+//  logo-ios
+//
+//  Created by Nutek Security Solutions on 08/02/2024.
+//
 
-char* logo() {
-  char* string = 
+#include "logo.h"
+
+#include <stdio.h>
+
+char* logo(void) {
+  char* string =
     "\033[1;31m::::    ::: :::    ::: ::::::::::: :::::::::: :::    :::\n"
     ":+:+:   :+: :+:    :+:     :+:     :+:        :+:   :+:             ♪\n"
     "\033[1;32m:+:+:+  +:+ +:+    +:+     +:+     +:+        +:+  +:+      ^_^  ♪\n"
@@ -16,8 +24,8 @@ char* logo() {
 }
 
 
-char* logo_black() {
-  char* string = 
+char* logo_black(void) {
+  char* string =
     "::::    ::: :::    ::: ::::::::::: :::::::::: :::    :::\n"
     ":+:+:   :+: :+:    :+:     :+:     :+:        :+:   :+:             ♪\n"
     ":+:+:+  +:+ +:+    +:+     +:+     +:+        +:+  +:+      ^_^  ♪\n"
